@@ -13,6 +13,7 @@ calculation in the lava river shader.
 Movement path colors and turn numbers are visually confirmed on Apple Silicon.
 Lava river rendering is not yet visually confirmed.
 
-Extract the archive, quit the game, and run `python3 visual_fix.py install`.
+Clone the repository or download the source code, quit the game, and run
+`python3 visual_fix.py install`. No build step is required.
 Use `python3 visual_fix.py uninstall` to remove it. See README.md for custom
 game locations, verification, compatibility, and the implementation details.

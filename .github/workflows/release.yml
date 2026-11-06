@@ -20,7 +20,6 @@ jobs:
           assert os.environ['GITHUB_REF_NAME'] == 'v' + __version__
           PY
       - run: python -m unittest discover -v
-      - run: python tools/package_release.py
       - name: Create draft GitHub release
         env:
           GH_TOKEN: ${{ github.token }}
@@ -29,4 +28,3 @@ jobs:
           --draft
           --title "Endless Legend macOS VisualFix ${GITHUB_REF_NAME}"
           --notes-file RELEASE_NOTES.md
-          dist/EndlessLegendMacOSVisualFix-*.zip dist/SHA256SUMS

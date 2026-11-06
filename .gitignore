@@ -7,3 +7,6 @@ VisualFix/
 *.assets
 *.resS
 *.bundle
+*.zip
+*.tar.gz
+*.tgz

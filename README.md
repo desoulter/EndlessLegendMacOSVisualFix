@@ -11,15 +11,16 @@ Silicon. Lava river rendering has not yet been visually confirmed.
 - The native macOS game, using Unity 5.3 and OpenGL.
 - Python 3.9 or newer.
 - Write access to the game folder and enough free space for an original backup
-  and a temporary resource file, approximately twice the resource file's size.
+and a temporary resource file, approximately twice the resource file's size.
 
 No Unity editor, Mono, Homebrew, or additional Python packages are required.
 
 ## Installation
 
 1. Quit Endless Legend.
-2. Download and extract the release archive, or clone this repository.
-3. Open Terminal in the extracted folder and run:
+2. Clone this repository, or choose **Code → Download ZIP** on GitHub and extract
+   the downloaded source code.
+3. Open Terminal in the repository folder and run:
 
 ```sh
 python3 visual_fix.py install
@@ -107,10 +108,6 @@ an unfamiliar program or file format causes installation to stop before game
 resources are changed. This targets the native game rather than arbitrary Unity
 applications or future engine conversions.
 
-ELCP and MovieAudioFix modify different files and can be used alongside this
-patch. Other asset modifications are preserved when they leave the two target
-shaders' recognized program code compatible.
-
 ## How it works
 
 The affected GLSL programs read an unassigned `vec3` local variable in a
@@ -145,7 +142,7 @@ DLLs, game rules, saved games, or audio playback.
 The lava target draws flowing lava. Separate smoke and steam particle effects
 are outside this patch's scope.
 
-## Tests and packaging
+## Tests
 
 The code uses Python's standard library. Run the portable regression suite with:
 
@@ -168,14 +165,8 @@ python3 tools/check_game.py "/path/to/original/resources.assets"
 
 This uses a temporary copy and does not modify the supplied file.
 
-To create the release archive and its SHA-256 file:
-
-```sh
-python3 tools/package_release.py
-```
-
 ## License
 
 The installer and synthetic tests are distributed under the MIT license.
 Endless Legend and its assets belong to their respective owners. Game assets
-are not included in the release or repository.
+are not included in the repository.

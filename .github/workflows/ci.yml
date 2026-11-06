@@ -17,4 +17,3 @@ jobs:
         with:
           python-version: ${{ matrix.python }}
       - run: python -m unittest discover -v
-      - run: python tools/package_release.py
