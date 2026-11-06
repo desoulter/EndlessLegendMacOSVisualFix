@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "shaders": {
+    "Amplitude/Characters/PathFind": [
+      {
+        "original": "7750d90e33d263d5327ffd40e24af50faa3b63862902e732c86065c2e110fc1f",
+        "repaired": "afb2fa29db8403460f9c5e6490460d6111fb8cd49226e87d650f45d2f200b5b7",
+        "changes": 1
+      },
+      {
+        "original": "c0f01e28be292ddbf5c141b6c763a4eb3db31460e594089de570ffd9cd549070",
+        "repaired": "7cb443d87d01530b5e161111b2c56683d2155b3f1d45ed889f43650ef1037507",
+        "changes": 1
+      },
+      {
+        "original": "2cf6b5e206d28dc4b8fc4bf194ab5c6a1816ee9a4097c5d31583bb244e4093ba",
+        "repaired": "d2f58561a54f891773da2d56a4b8139c42d67fc4169c4aef495f09ab3381872a",
+        "changes": 1
+      },
+      {
+        "original": "12aad35f66de33f8eb0c1bd3bcf09ccba1ab6c006a1a317c6c06b602d549c248",
+        "repaired": "f732b377fad3b3b53264a9b8f562ca60701607d42b7255d2123b1449ca111eab",
+        "changes": 1
+      },
+      {
+        "original": "b2e66686bcfa881ea91f4f07341afe3183d3393dc0964b59492879cd838ef0bb",
+        "repaired": "c0b60e249deff1baabfdb62b4e48d4ef74b974733f74b2d2426bbf4a468cc121",
+        "changes": 1
+      },
+      {
+        "original": "485605d78c8198a1c1c105f3fb796cdf2936b92219d3bd6833adf84699019cf8",
+        "repaired": "a3b5c9797f7b44e927a299c9e45a0fd273851fbdaaa77055e6b551f18f9f3949",
+        "changes": 1
+      }
+    ],
+    "Custom/RiverLava": [
+      {
+        "original": "779cf17867d48d746623b7dd230290f4045235fb730ef30eb25464d08d56fc82",
+        "repaired": "b1e25051e83e76dfa78eff9aa9e9d89e88de3665fa032e9514e67925010e9412",
+        "changes": 1
+      },
+      {
+        "original": "83cb432f7a87bf87941c6b75ac53364169ee595f885c3c2de6f123e7db819fea",
+        "repaired": "bb6240176f755fb7164b000fced7a3a22622c8688e2301d18ec0a5d03f80de17",
+        "changes": 1
+      },
+      {
+        "original": "2d52071b0b4389703a2db3138675e5848981df3e8cae940618987927c223c197",
+        "repaired": "bbe1a482d994057d4eba26ea81d71ebfa62a05c007ab9f96d9c2d54d5f8ce8c2",
+        "changes": 1
+      },
+      {
+        "original": "5f50b4d58ce0c1d6626f48e0e00b98b5707937391cce686bb01c1f4fea583483",
+        "repaired": "6eab37b30aeaccde23c99e011647736abfe4894b66b9b3ac7d40a3c77b60b744",
+        "changes": 1
+      },
+      {
+        "original": "5e248ef9dfb6c28e180c3ddd96386b5830174ff7413e77cc8d7e054b26a6b2a5",
+        "repaired": "fc34612e55eba669a4a103179ef6ab73f78501514d1973039a0fdc0654cc4a7b",
+        "changes": 1
+      },
+      {
+        "original": "d45b8c2dcd9a1d44d5a35f8dcddfbd53b9f0104ceb113538c723dbdc5fbf9edf",
+        "repaired": "d45b8c2dcd9a1d44d5a35f8dcddfbd53b9f0104ceb113538c723dbdc5fbf9edf",
+        "changes": 0
+      },
+      {
+        "original": "d5e9f5af7a162a2afb199b559ac2c912a3c1f4bddf23c9e7967606f6544e7ec5",
+        "repaired": "e2090422a22151254b94ded744c9943cfd63612690803df07c044d011a26a94b",
+        "changes": 1
+      },
+      {
+        "original": "c58af4a2b78bd3b3fd3643cabd666773034de56117e8ed6151d93cc931f75bf0",
+        "repaired": "79fdf09e98aa24f887aa6b5dfa3addca1dcc1e57f34b5177528adde72c1dd820",
+        "changes": 1
+      },
+      {
+        "original": "ac8871b87e26a901665df7bbd66ccf95bc3cfcaf77db36b056bb04bfb4273d80",
+        "repaired": "c05d563addb987487c5c88e4657052be59020bfaecf524850aa0c5066fc5de12",
+        "changes": 1
+      },
+      {
+        "original": "62752fabd767023422e4bad49c66cbe143203ef38b13f3aa2606f8915a0651d8",
+        "repaired": "41ec27f4c78ce0945cd3c29808c54cf814272460f0e517d94755e4803e2fbec6",
+        "changes": 1
+      }
+    ]
+  }
+}
